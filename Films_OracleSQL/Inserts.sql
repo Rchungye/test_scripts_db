@@ -28,84 +28,82 @@ SELECT * FROM dual;
 -- Insertar datos en la tabla Programa (adaptado a Oracle SQL)
 INSERT ALL
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Titanic', 230, 1997, 3, 1, 'Leonardo DiCaprio (Jack) y Kate Winslet (Rose)', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Titanic', 230, 1997, 3, 1, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Guason', 120, 2019, 3, 2, 'Joaquin Phoenix (Arthur Fleck), Robert De Niro (Murray Franklin)', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Guason', 120, 2019, 3, 2, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Minion', 100, 2015, 1, 3, 'Sandra Bullock, Jon Hamm, Michael Keaton, Allison Janney, Steve Coogan', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Minion', 100, 2015, 1, 3, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('El rey Leon', 90, 1994, 1, 4, 'Matthew Broderick, James Earl Jones, Jeremy Irons, Jonathan Taylor Thomas, Moira Kelly', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('El rey Leon', 90, 1994, 1, 4, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Harry Potter', 120, 2001, 2, 4, 'Daniel Radcliffe (Harry Potter), Emma Watson (Hermione Granger), Rupert Grint (Ron Weasley)', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Harry Potter', 120, 2001, 2, 4, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Avengers', 135, 2012, 3, 5, 'Robert Downey Jr. (Iron Man), Chris Evans (Capitan America), Scarlett Johansson (Viuda Negra), entre otros.', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Avengers', 135, 2012, 3, 5, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Home Alone', 150, 1990, 2, 6, 'Macaulay Culkin (Kevin McCallister), Joe Pesci (Harry), Daniel Stern (Marv)', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Home Alone', 150, 1990, 2, 6, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Avatar', 175, 2009, 2, 2, 'Sam Worthington (Jake Sully), Zoe Saldana (Neytiri)', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Avatar', 175, 2009, 2, 2, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Rapido y Furioso', 120, 2001, 3, 2, 'Vin Diesel (Dominic Toretto), Paul Walker (Brian O''Conner), Michelle Rodriguez (Letty Ortiz), entre otros.', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Rapido y Furioso', 120, 2001, 3, 2, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Los picapiedras', 90, 1994, 1, 4, 'John Goodman (Fred Flintstone), Elizabeth Perkins (Wilma Flintstone)', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 1)
+    ('Los picapiedras', 90, 1994, 1, 4, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Betty la Fea', 160, 1999, 2, 1, 'Ana Maria Orozco (Betty), Jorge Enrique Abello (Armando)', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 2)
+    ('Betty la Fea', 160, 1999, 2, 1, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Los Simpson', 75, 1989, 2, 4, 'Dan Castellaneta, Julie Kavner, Nancy Cartwright, Yeardley Smith, Hank Azaria', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 2)
+    ('Los Simpson', 75, 1989, 2, 4, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Friends', 175, 1994, 2, 1, 'Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry y David Schwimmer', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 2)
+    ('Friends', 175, 1994, 2, 1, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
   INTO Programa (nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-    ('Breaking Bad', 120, 2008, 3, 2, 'Bryan Cranston, Aaron Paul, Anna Gunn, Dean Norris, Betsy Brandt', 'DESCRIPCION descripcion Descripcion', 'https://i.kym-cdn.com/entries/icons/original/000/046/895/huh_cat.jpg', 2)
+    ('Breaking Bad', 120, 2008, 3, 2, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
+  INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
+    ('The Good Doctor', 160, 2017, 2, 1, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
+  INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
+    ('Stranger Things', 180, 2016, 2, 2, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
+  INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
+    ('The Mandalorian', 110, 2019, 2, 5, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
+  INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
+    ('Greys Anatomy', 200, 2005, 3, 1, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
+  INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
+    ('Game of Thrones', 210, 2011, 3, 2, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
+  INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
+    ('La casa de papel', 140, 2017, 3, 2, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 2)
+  INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
+    ('Coco', 105, 2017, 1, 4, 'Protagonista 1, Protagonista 2, Protagonista 3', 'DESCRIPCION descripcion Descripcion', 'ImagenGenericaWah.jpg', 1)
 SELECT * FROM dual;
 
-INSERT ALL
-	INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-		('The Good Doctor', 160, 2017, 2, 1, 'Freddie Highmore (Shaun Murphy), Antonia Thomas (Claire Browne), Nicholas Gonzalez (Neil Melendez), Hill Harper (Marcus Andrews)', 'DESCRIPCION descripcion Descripcion', 'https://pics.filmaffinity.com/La_chica_alaergica_al_wifi-368139509-large.jpg', 2)
-	INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-		('Stranger Things', 180, 2016, 2, 2, 'Millie Bobby Brown (Eleven), Finn Wolfhard (Mike Wheeler), David Harbour (Jim Hopper), Winona Ryder (Joyce Byers)', 'DESCRIPCION descripcion Descripcion', 'https://pics.filmaffinity.com/La_chica_alaergica_al_wifi-368139509-large.jpg', 2)
-	INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-		('The Mandalorian', 110, 2019, 2, 5, 'Pedro Pascal (El Mandaloriano), Gina Carano (Cara Dune), Carl Weathers (Greef Karga)', 'DESCRIPCION descripcion Descripcion', 'https://pics.filmaffinity.com/La_chica_alaergica_al_wifi-368139509-large.jpg', 2)
-	INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-		('Grey’s Anatomy', 200, 2005, 3, 1, 'Ellen Pompeo (Meredith Grey), Sandra Oh (Cristina Yang), Patrick Dempsey (Derek Shepherd), Chandra Wilson (Miranda Bailey)', 'DESCRIPCION descripcion Descripcion', 'https://pics.filmaffinity.com/La_chica_alaergica_al_wifi-368139509-large.jpg', 2)
-	INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-		('Game of Thrones', 210, 2011, 3, 2, 'Emilia Clarke, Kit Harington, Peter Dinklage, Lena Headey, Nikolaj Coster-Waldau', 'DESCRIPCION descripcion Descripcion', 'https://pics.filmaffinity.com/La_chica_alaergica_al_wifi-368139509-large.jpg', 2)
-	INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-		('La casa de papel', 140, 2017, 3, 2, 'alvaro Morte (El Profesor), ursula Corbero (Tokio), Pedro Alonso (Berlin), Itziar Ituno (Raquel Murillo)', 'DESCRIPCION descripcion Descripcion', 'https://pics.filmaffinity.com/La_chica_alaergica_al_wifi-368139509-large.jpg', 2)
-	INTO Programa(nombre_prog, duracion, ano_produc, edad_rec, t_genero, protagonista, descripcion, imagen, t_produc) VALUES 
-		('Coco', 105, 2017, 1, 4, 'Anthony Gonzalez (Miguel), Gael Garcia Bernal (Hector), Benjamin Bratt (Ernesto de la Cruz)', 'DESCRIPCION descripcion Descripcion', 'https://pics.filmaffinity.com/La_chica_alaergica_al_wifi-368139509-large.jpg', 1)
-SELECT * FROM dual;
 
 -- Inserción en tabla Capitulos adaptada a Oracle SQL
 INSERT ALL
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 1, 20, 'Betty llega a trabajar a Eco Moda, una empresa de moda prestigiosa, enfrentando el rechazo inicial por su apariencia peculiar')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 2, 20, 'Armando, el presidente de la empresa, hace una apuesta con sus colegas sobre si puede conquistar a Betty en tres meses.')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 3, 20, 'Betty se somete a un cambio de imagen para intentar encajar en el mundo de la moda, pero sus esfuerzos no tienen el resultado esperado')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 4, 20, 'Armando comienza a sentir celos al ver a Betty recibir atencion de otro hombre, lo que despierta sentimientos confusos en el')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 5, 20, 'Betty confiesa sus sentimientos hacia Armando a su amiga, pero pronto se da cuenta de que su amor es imposible debido a la brecha social entre ellos')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 6, 20, 'Armando hace una propuesta de matrimonio inesperada a Marcela, su novia, desencadenando un torbellino de emociones en Betty')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 7, 20, 'Betty enfrenta una serie de contratiempos en un dia lleno de mala suerte que pone a prueba su paciencia y determinacion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 8, 20, 'Betty se convierte en el "angel de la guarda" secreto de Armando durante la temporada navidena, llevando a cabo actos bondadosos y generosos para el sin revelar su identidad')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 1, 15, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 2, 15, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 3, 15, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 4, 15, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 5, 15, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 1, 25, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 2, 25, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 3, 25, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 4, 25, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 5, 25, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 6, 25, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 7, 25, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 1, 30, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 2, 30, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 3, 30, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 4, 30, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 1, 20, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 2, 20, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 3, 20, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 4, 20, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 5, 20, 'descripcion')
-    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 6, 20, 'descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 1, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 2, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 3, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 4, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 5, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 6, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 7, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1010, 8, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 1, 15, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 2, 15, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 3, 15, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 4, 15, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1011, 5, 15, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 1, 25, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 2, 25, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 3, 25, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 4, 25, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 5, 25, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 6, 25, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1012, 7, 25, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 1, 30, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 2, 30, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 3, 30, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1013, 4, 30, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 1, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 2, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 3, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 4, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 5, 20, 'DESCRIPCION descripcion Descripcion')
+    INTO Capitulos (cod_prog, num_cap, duracion, descripcion) VALUES (1014, 6, 20, 'DESCRIPCION descripcion Descripcion')
 SELECT * FROM dual;
 
 -- Tabla: Tarjeta

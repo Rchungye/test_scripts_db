@@ -1,9 +1,9 @@
 -- Crear usuario (Oracle no tiene CREATE DATABASE)
-CREATE USER Films_Rafael_Chung_Javier_Acosta IDENTIFIED BY your_password;
-GRANT CONNECT, RESOURCE TO Films_Rafael_Chung_Javier_Acosta;
+CREATE USER Films_Rafael_Chung IDENTIFIED BY your_password;
+GRANT CONNECT, RESOURCE TO Films_Rafael_Chung;
 
 -- Cambiar al esquema del usuario
-ALTER SESSION SET CURRENT_SCHEMA = Films_Rafael_Chung_Javier_Acosta;
+ALTER SESSION SET CURRENT_SCHEMA = Films_Rafael_Chung;
 
 -- Tabla edad_recomendada
 CREATE TABLE edad_recomendada (

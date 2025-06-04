@@ -1,6 +1,6 @@
 -- Crear base de datos
-CREATE DATABASE IF NOT EXISTS Films_Rafael_Chung_Javier_Acosta;
-USE Films_Rafael_Chung_Javier_Acosta;
+CREATE DATABASE IF NOT EXISTS Films_Rafael_Chung;
+USE Films_Rafael_Chung;
 
 -- Tabla edad_recomendada
 CREATE TABLE edad_recomendada (
