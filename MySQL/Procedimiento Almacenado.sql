@@ -1,6 +1,6 @@
--- Script MySQL de procedimientos de búsqueda, verificación y preferencia de clientes
+-- Script MySQL de procedimientos de busqueda, verificacion y preferencia de clientes
 
--- 6) Búsqueda de Programa
+-- 6) Busqueda de Programa
 DROP PROCEDURE IF EXISTS p_busqueda;
 DELIMITER $$
 
@@ -19,7 +19,7 @@ BEGIN
         SELECT * FROM V_actor
         WHERE protagonista LIKE CONCAT('%', palabra_buscada, '%');
     ELSE
-        SELECT 'Tipo de búsqueda no válido' AS Resultado;
+        SELECT 'Tipo de busqueda no valido' AS Resultado;
     END IF;
 END$$
 
@@ -27,7 +27,7 @@ DELIMITER ;
 
 -- Prueba del procedimiento p_busqueda
 SET @exec_tipo_busqueda = 3;
--- SET @exec_palabra_buscada = 'ro'; -- para género
+-- SET @exec_palabra_buscada = 'ro'; -- para genero
 -- SET @exec_palabra_buscada = '10'; -- para edad
 SET @exec_palabra_buscada = 'James'; -- para protagonista
 
@@ -54,7 +54,7 @@ BEGIN
     WHERE nombre_cliente = nombre_cliente AND apellido = apellido AND identificador = identificador;
 
     IF existe_cliente > 0 THEN
-        SELECT c.cod_cliente AS 'Código del cliente',
+        SELECT c.cod_cliente AS 'Codigo del cliente',
                CONCAT(c.nombre_cliente, ' ', c.apellido) AS 'Nombre del cliente ya registrado/a'
         FROM Cliente c
         WHERE c.identificador = identificador;
@@ -66,7 +66,7 @@ BEGIN
         FROM Cliente c
         WHERE c.identificador = identificador;
 
-        SELECT cod_cliente AS 'Nuevo Código de Cliente',
+        SELECT cod_cliente AS 'Nuevo Codigo de Cliente',
                CONCAT(nombre_cliente, ' ', apellido) AS 'Nombre de Cliente';
     END IF;
 END$$

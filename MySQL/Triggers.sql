@@ -1,4 +1,4 @@
--- Script MySQL con lógica de paz y salvo y validación de pago
+-- Script MySQL con logica de paz y salvo y validacion de pago
 
 -- 3) Paz y Salvo
 DROP TRIGGER IF EXISTS t_paz_y_salvo;
@@ -16,25 +16,25 @@ BEGIN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Alguno de los valores es nulo.';
     END IF;
 
-    -- Verificar si ya existe la visualización
+    -- Verificar si ya existe la visualizacion
     SELECT COUNT(*) INTO total_existente
     FROM Visualizaciones
     WHERE num_contrato = NEW.num_contrato AND cod_prog = NEW.cod_prog;
 
     IF total_existente > 0 THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Esta visualización ya existe.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Esta visualizacion ya existe.';
     END IF;
 
-    -- Obtener la última fecha de pago
+    -- Obtener la ultima fecha de pago
     SELECT MAX(fecha_pago) INTO ultima_fecha_pago
     FROM Pago
     WHERE num_contrato = NEW.num_contrato;
 
     IF ultima_fecha_pago IS NULL OR TIMESTAMPDIFF(MONTH, ultima_fecha_pago, CURRENT_DATE()) >= 1 THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Su servicio está suspendido por morosidad.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Su servicio esta suspendido por morosidad.';
     END IF;
 
-    -- Si todo está bien, se permite el insert y se imprime mensaje (en apps externas, no en MySQL)
+    -- Si todo esta bien, se permite el insert y se imprime mensaje (en apps externas, no en MySQL)
 END$$
 
 DELIMITER ;
@@ -59,7 +59,7 @@ BEGIN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'El cliente no tiene contratado este plan.';
     END IF;
 
-    -- Obtener el último monto registrado para el mismo plan
+    -- Obtener el ultimo monto registrado para el mismo plan
     SELECT monto_pagado INTO monto_plan
     FROM Pago
     WHERE cod_cliente = NEW.cod_cliente AND cod_plan = NEW.cod_plan AND num_contrato = NEW.num_contrato
@@ -70,7 +70,7 @@ BEGIN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'El monto pagado no corresponde al plan contratado.';
     END IF;
 
-    -- Fecha de pago automática
+    -- Fecha de pago automatica
     SET NEW.fecha_pago = CURRENT_DATE();
     -- Si pasa todas las validaciones, se realiza el insert normalmente
 END$$
